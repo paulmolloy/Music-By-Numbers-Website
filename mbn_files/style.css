@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* CSS Document */
+
+img{border:0;}
+
+body {text-align:center; margin:23px 0; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:0.8em; line-height:1.4em;}
+table img{ height:100px; width:150px;}
+
+
+
+p a{color:#CC0000;}
+p a:hover{color:#3c671e;}
+
+#container {width:950px; margin-left:auto; margin-right:auto; text-align:left;}
+
+
+#top_banner {height:149px; background:url(top_bannermusic1.png) bottom no-repeat; text-align:right;}
+
+#nav {height:35px;  no-repeat right #0033ff; color:#FFFFFf; border: 2px solid white;}
+#nav ul{list-style-type:none; margin:0; padding:0 0 0 10px; }
+#nav li{
+	float: left;
+	padding: 6px 0.9em 0 0.9em;
+	font-size: 1.15em;
+}
+
+#content{background:#FFFFFF; overflow:hidden; border-bottom:solid 2px #0099ff;}
+#content1{background:#FFFFFF; overflow:hidden;  padding: 20px 20px 20px 20px; }
+
+
+
+
+#left_column{ float:left; width:460px; padding:30px 30px;}
+.pcontact{ font-size:1.5em;}
+#headingcontacts{ font-size:1.8em;}
+
+
+
+#right_column{margin-left:520px; padding:30px 20px;}
+
+#footer{clear:both; background:#FFFFFF; overflow:hidden; padding:10px 20px 10px 30px; }
+#footer div{float:left; width:33%;}
+
+#col1 strong {color:#0033ff; text-transform:uppercase; font-weight:normal;}
+
+#col2 img {color:#0099ff;  }
+
+
+
+
+.main_link {color:#FFFFFF; text-decoration:none;}
+.main_link:hover, .selected{color:#0099ff; text-decoration:none;}
+
+p.lower_left{float:left; font-size:0.8em; color:#FFFFFF;}
+p.lower_right{float:right; font-size:0.8em; color:#FFFFFF; text-align:right;}
